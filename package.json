@@ -8,6 +8,7 @@
     "readable-stream": "^2.2.2"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
     "standard": "^8.6.0",
     "tap": "^9.0.3"
   },
