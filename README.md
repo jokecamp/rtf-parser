@@ -7,7 +7,7 @@ formats.
 
 
 ```js
-const parseRTF = require('@iarna/rtf-parser')
+const parseRTF = require('@kenyog/rtf-parser')
 const fs = require('fs')
 
 parseRTF.string('{\\rtf1\\ansi\\b hi there\\b0}', (err, doc) => {
@@ -97,3 +97,13 @@ document global options and the paragraph objects that make up the document.
   * foreground: color (an object with red, green and blue values, 0-255)
   * background: color
   * dir (rtl or ltr)
+
+## Forked information
+
+This project is forked from [@iarna/rtf-parser](https://github.com/iarna/rtf-parser)
+for supporting
+ * cp932, and
+ * MS WordPad Style fonttbl format.
+
+If these features was merged into original repository,  This project may be removed.
+
