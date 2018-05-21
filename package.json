@@ -1,6 +1,6 @@
 {
   "name": "@kenyog/rtf-parser",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a parser for rtf file for Node.js.",
   "main": "index.js",
   "directories": {
